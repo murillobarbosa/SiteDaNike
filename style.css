@@ -1,0 +1,75 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: aqua;
+    --white: #FFFFFF;
+    --space-default: 70px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: var(--space-default);
+    padding-right: var(--space-default);
+    padding-bottom: 24px;
+    padding-left: var(--space-default);
+    font-family: 'Righteous', cursive;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: 100%;
+}
+
+header {
+    height: 42px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.logo {
+    grid-column: 1/4;
+}
+
+.logo01 {
+    grid-column: 6/6;
+}
+
+.logo02 {
+    grid-column: 11/11;
+}
+
+.pontilhados {
+    place-self: center start;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.circulo {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.circulo.selecionado {
+    background-color: black;
+}
+
+.text {
+    grid-column: 2;
+}
+
+footer {
+    height: 100px;
+}

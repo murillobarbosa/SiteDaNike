@@ -67,9 +67,15 @@ main {
 }
 
 .text {
-    grid-column: 2;
+    place-self: center start;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
 }
 
+grid-column: 2;
+
+}
 footer {
     height: 100px;
 }

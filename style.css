@@ -19,6 +19,7 @@ body {
     padding-bottom: 24px;
     padding-left: var(--space-default);
     font-family: 'Righteous', cursive;
+    position: fixed;
 }
 
 .container {
@@ -90,11 +91,13 @@ main {
 }
 .imgFundo{
     position: absolute;
-    font-size: 24vw;
+    background: #4AE6D3;
     z-index: -1;
-    transform: translate(-80%, 10%);
-    position: relative;
-    grid-column: 12/12;
+    transform: translate(240%, -10%);
+    height: 105%;
+    width: 30%;
+    
+    grid-column: 10/-1;
 }
 
 

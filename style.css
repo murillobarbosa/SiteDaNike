@@ -16,7 +16,6 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: var(--space-default);
-    padding-right: var(--space-default);
     padding-bottom: 24px;
     padding-left: var(--space-default);
     font-family: 'Righteous', cursive;
@@ -34,6 +33,7 @@ header {
 
 main {
     flex-grow: 1;
+    
 }
 
 .logo {
@@ -45,7 +45,7 @@ main {
 }
 
 .logo02 {
-    grid-column: 11/11;
+    grid-column: 12/12;
 }
 
 .pontilhados {
@@ -71,11 +71,34 @@ main {
     display: flex;
     flex-direction: column;
     gap: 55px;
+    grid-column: 5/5;
+}   
+.texts {
+    place-self: center start;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    grid-column: 8/8;
+}
+.imagemTenis{
+    place-self: flex end;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    grid-column: 13/14;
+
+}
+.imgFundo{
+    position: absolute;
+    font-size: 24vw;
+    z-index: -1;
+    transform: translate(-80%, 10%);
+    position: relative;
+    grid-column: 12/12;
 }
 
-grid-column: 2;
 
-}
+
 footer {
     height: 100px;
 }

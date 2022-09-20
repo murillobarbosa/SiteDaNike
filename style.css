@@ -34,7 +34,6 @@ header {
 
 main {
     flex-grow: 1;
-    
 }
 
 .logo {
@@ -67,41 +66,47 @@ main {
     background-color: black;
 }
 
-.text {
+.text1 {
     place-self: center start;
     display: flex;
     flex-direction: column;
     gap: 55px;
-    grid-column: 5/5;
-}   
-.texts {
-    place-self: center start;
-    display: flex;
-    flex-direction: column;
-    gap: 55px;
-    grid-column: 8/8;
+    grid-column: 2/6;
+    color: black;
 }
-.imagemTenis{
+
+.texts2 {
+    height: 111px;
+    width: 254px;
+    left: 559px;
+    top: 188px;
+    border-radius: nullpx;
+    grid-template-columns: 2/6;
+    color: black;
+    position: absolute;
+    left: 0;
+}
+
+.imagemTenis {
     place-self: flex end;
     display: flex;
     flex-direction: column;
     gap: 55px;
     grid-column: 13/14;
-
 }
-.imgFundo{
-    position: absolute;
+
+.imagemFundo {
+    /* position: absolute;
     background: #4AE6D3;
     z-index: -1;
     transform: translate(240%, -10%);
     height: 105%;
-    width: 30%;
-    
-    grid-column: 10/-1;
+    width: 30%; */
+    grid-column: 6/-1;
+    place-self: center end;
+    position: relative;
 }
 
-
-
 footer {
-    height: 100px;
+    height: 1000px;
 }

@@ -71,8 +71,19 @@ main {
     display: flex;
     flex-direction: column;
     gap: 55px;
-    grid-column: 2/6;
+    grid-column: 8/8;
     color: black;
+    background-image: url(./img/Rectangle\ 9.png);
+    position: absolute;
+    width: 190px;
+    height: 3px;
+    left: 201px;
+    top: 212px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 61px;
 }
 
 .texts2 {
@@ -91,6 +102,17 @@ main {
     line-height: 31px;
     letter-spacing: 0em;
     text-align: left;
+}
+
+.texts3 {
+    position: absolute;
+    width: 191px;
+    height: 43px;
+    left: 139px;
+    top: 456px;
+    background-image: url(./img/Rectangle\ 8.png);
+    color: white;
+    align-items: center;
 }
 
 .imagemTenis {
